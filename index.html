@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <!-- Logo de la compañía -->
+    <div class="log-company">
+      <img class="logo-principal" src="./img/logo (1).png" alt="Logo de la compañía">
+    </div>
+    <div class="welcome-partner" >
+      <p>Welcome *Partner Name* Into </p>
+    </div>
+    <!-- Botón de LOG OUT -->
+    <div class="logout-section">
+      <a id="logout-button">LOG OUT</a>
+      <!-- Login ID -->
+      <p id="login-id">Login ID: 123456789</p>
+    </div>
+  </header>
+
+  <div id="sidebar">
+    <!-- Foto de la persona logeada -->
+    <div id="profile-picture"></div>
+    <!-- Secciones del sidebar -->
+    <div class="sidebar-section">
+      <img src="./img/sidebar/icons8-usuario-masculino-en-círculo-64.png" alt="user">
+      <p>My Account</p>
+    </div>
+    <div class="sidebar-section">
+      <img src="./img/sidebar/icons8-usuario-de-género-neutro-64.png" alt="Register Customer">
+      <p>Register Customer</p>
+    </div>
+    <div class="sidebar-section">
+      <img src="./img/sidebar/icons8-earning-64.png" alt="earning">
+      <p>My Earnings</p>
+    </div>
+    <div class="sidebar-section">
+      <img src="./img/sidebar/icons8-auriculares-50.png" alt="Suport Account">
+      <p>Support Account</p>
+    </div>
+    <div class="sidebar-section">
+      <img src="./img/sidebar/icons8-ayuda-48.png" alt="Help">
+      <p>FAQ & Help</p>
+    </div>
+  </div>
+
+  <div id="content">
+    <div class="dashboard-section" id="section-dashboard1">
+      <h3 class="title-dashboard">My Account</h3>
+      <p class="profile-title">User Profile</p>
+      <div id="profile-picture-upload">
+        <img src="./img/pexels-luis-quintero-1793305.jpg" id="photo-profile" alt="profilePhoto">
+        <input type="file" id="file">
+        <label for="file" id="uploadBtn">Choose Photo</label>
+      </div>
+      <p id="channel-partner-id">My Channel Partner ID*: 123456789</p>
+      <div class="profile-info">
+        <div class="column1">
+          <p>Category:</p>
+          <p>First Name:</p>
+          <p>Last Name:</p>
+          <p>Email ID:</p>
+          <p>Contact:</p>
+          <p>Country:</p>
+          <p>City:</p>
+        </div>
+        <div class="column">
+          <p>Store/Freelancer/Website:</p>
+          <p>John</p>
+          <p>Doe</p>
+          <p>johndoe@example.com</p>
+          <p>1234567890</p>
+          <p>Country</p>
+          <p>City</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="dashboard-section" id="section-dashboard2">
+      <h3 class="password-title">Change Password</h3>
+      <div class="password-change">
+        <label for="current-password">Current Password:</label>
+        <input type="password" id="current-password">
+        <label for="new-password">New Password:</label>
+        <input type="password" id="new-password">
+        <label for="confirm-password">Confirm Password:</label>
+        <input type="password" id="confirm-password">
+        <button id="update-button">UPDATE</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
